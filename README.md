@@ -25,7 +25,7 @@ Ce module s'inspire et utilise quelques codes de [MMM-Hue](https://github.com/Mi
 
 ## Installation
 
-1. Clone this repo into `~/MagicMirror/modules` directory.
+1. Cloner ce dépôt dans le repertoire `~/MagicMirror/modules`.
 2. Aller dans le repertoire `~/MagicMirror/modules/MMM-TPLink` et lancer `npm install`
 3. Ajouter et configurer le module dans le fichier  `~/MagicMirror/config/config.js`:
 
