@@ -4,30 +4,30 @@ Merci a [Slametps](https://github.com/slametps) pour son travail.
 
 # MMM-TPLink [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)]
 
-TPLink Smarthome Module for MagicMirror<sup>2</sup>.
-This modules inspired and using some codes from [MMM-Hue](https://github.com/MitchSS/MMM-Hue).
+Module TPLink Smarthome pour MagicMirror<sup>2</sup>.
+Ce module s'inspire et utilise quelques codes de [MMM-Hue](https://github.com/MitchSS/MMM-Hue).
 
-## Supported Devices
+## Materiel supporté
 
-| Model                                    | Type |
+| Modèle                                    | Type |
 |------------------------------------------|------|
 | HS100, HS105, HS110, HS200               | Plug |
 | LB100, LB110, LB120, LB130, LB200, LB230 | Bulb |
 
-## Example
+## Exemple
 
 ![](others/MMM-TPLink-screenshot-01.png)   ![](others/MMM-TPLink-screenshot-02.png)
 
-## Dependencies
+## Dependances
 
-* An installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
-* [tplink-smarthome-api](https://github.com/plasticrake/tplink-smarthome-api) module of nodejs
+* Une installation de [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror).
+* [tplink-smarthome-api](https://github.com/plasticrake/tplink-smarthome-api) nodejs module.
 
 ## Installation
 
 1. Clone this repo into `~/MagicMirror/modules` directory.
-2. Go to `~/MagicMirror/modules/MMM-TPLink` directory and do `npm install`
-3. Configure your `~/MagicMirror/config/config.js`:
+2. Aller dans le repertoire `~/MagicMirror/modules/MMM-TPLink` et lancer `npm install`
+3. Ajouter et configurer le module dans le fichier  `~/MagicMirror/config/config.js`:
 
     ```
     {
@@ -38,13 +38,13 @@ This modules inspired and using some codes from [MMM-Hue](https://github.com/Mit
     }
     ```
 
-## Config Options
+## Options de configuration
 
-| **Option** | **Default** | **Description** |
+| **Option** | **Defaut** | **Description** |
 | --- | --- | --- |
-| `colour` | `false` | displaying power status in colour or not |
-| `updateInterval` | `600000 ms` (10 minutes) | how often should the devices states refreshed |
-| `showOnlyOn` | `false` | if set to true the module shows only the lights which are on |
-| `showLabel` | `true` | show header label? |
-| `timeout` | `3000` | how long the discovery should be taken |
-| `animationSpeed` | `2500 ms` (2.5 s) | Speed of the update animation |
+| `colour` | `false` | Affichage de l'état de l'alimentation en couleur ou non |
+| `updateInterval` | `600000 ms` (10 minutes) | Intervale de mise à jour |
+| `showOnlyOn` | `false` | S'il est défini sur true, le module affiche uniquement les voyants allumés |
+| `showLabel` | `true` | Afficher l'étiquette d'en-tête ? |
+| `timeout` | `3000` | Combien de temps doit prendre la découverte  |
+| `animationSpeed` | `2500 ms` (2.5 s) | Vitesse de l'animation de mise à jour |
