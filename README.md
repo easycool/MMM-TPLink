@@ -1,6 +1,6 @@
 Traduit de l'original [MMM-TPLink](https://github.com/slametps/MMM-TPLink).
 
-Merci a Slametps pour son travail.
+Merci a [Slametps](https://github.com/slametps) pour son travail.
 
 # MMM-TPLink [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)]
 
