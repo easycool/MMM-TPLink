@@ -1,4 +1,4 @@
-Traduit de l'original MMM-NetworkConnection
+Traduit de l'original [MMM-TPLink](https://github.com/slametps/MMM-TPLink).
 
 Merci a Slametps pour son travail.
 
