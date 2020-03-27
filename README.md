@@ -1,3 +1,7 @@
+Traduit de l'original MMM-NetworkConnection
+
+Merci a Slametps pour son travail.
+
 # MMM-TPLink [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)]
 
 TPLink Smarthome Module for MagicMirror<sup>2</sup>.
